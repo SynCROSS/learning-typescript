@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "SynCROSS",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src"
+  },
   "devDependencies": {
     "@types/node": "^16.4.1",
     "ts-node": "^10.1.0",
