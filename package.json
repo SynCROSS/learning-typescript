@@ -6,7 +6,8 @@
   "author": "SynCROSS",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src"
+    "dev": "ts-node src",
+    "build": "tsc && node dist"
   },
   "devDependencies": {
     "@types/node": "^17.0.22",
